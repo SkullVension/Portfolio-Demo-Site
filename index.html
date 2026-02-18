@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name — Digital Solutions & Creative Dev</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero reveal">
+    <div class="hero-content">
+      <h1>Building digital experiences with code.</h1>
+      <p id="typewriter"></p>
+      <div class="hero-actions">
+        <button onclick="scrollToSection('projects')">View My Work</button>
+        <button class="outline">Download CV</button>
+      </div>
+    </div>
+    <button class="theme-toggle" id="themeToggle">🌙</button>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills reveal">
+    <h2>Skill Stack</h2>
+
+    <div class="skill-group">
+      <h3>Core</h3>
+      <div class="badges">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript (ES6+)</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Tools</h3>
+      <div class="badges">
+        <span>Git</span>
+        <span>VS Code</span>
+        <span>Figma</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Soft Skills</h3>
+      <div class="badges">
+        <span>Project Management</span>
+        <span>Client Communication</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects reveal" id="projects">
+    <h2>Project Showcases</h2>
+
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c" alt="">
+        <h3>Artisan Bakery Site</h3>
+        <p>A responsive landing page designed to showcase a local bakery brand and convert inquiries.</p>
+        <div class="tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97" alt="">
+        <h3>Portfolio Website</h3>
+        <p>A modern personal portfolio built with animations, glass UI, and performance focus.</p>
+        <div class="tech">
+          <span>HTML</span><span>CSS</span><span>JS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact reveal">
+    <h2>Reach Me</h2>
+
+    <div class="contact-box">
+      <p><strong>Email:</strong> demo@gmail.com</p>
+      <p>
+        <a href="#">GitHub</a> · 
+        <a href="#">LinkedIn</a>
+      </p>
+      <div class="availability" id="availability">
+        🔵 Available for new projects
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
